@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9819" started-at="2019-02-10T06:25:48Z" finished-at="2019-02-10T06:25:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9819" started-at="2019-02-10T06:25:48Z" finished-at="2019-02-10T06:25:58Z">
+      <class name="App_Authentication.App_Authentication.Authenticate">
+        <test-method status="PASS" signature="launch()[pri:0, instance:App_Authentication.App_Authentication.Authenticate@5123a213]" name="launch" is-config="true" duration-ms="7366" started-at="2019-02-10T06:25:48Z" finished-at="2019-02-10T06:25:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="verifylogin()[pri:0, instance:App_Authentication.App_Authentication.Authenticate@5123a213]" name="verifylogin" duration-ms="2292" started-at="2019-02-10T06:25:56Z" finished-at="2019-02-10T06:25:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:App_Authentication.App_Authentication.Authenticate@5123a213]" name="afterMethod" is-config="true" duration-ms="141" started-at="2019-02-10T06:25:58Z" finished-at="2019-02-10T06:25:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- App_Authentication.App_Authentication.Authenticate -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
