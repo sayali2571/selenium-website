@@ -1,7 +1,4 @@
-FROM devopsedu/webapp
+FROM devopsedu/mysql
 
-CMD apachectl -D FOREGROUND
+ADD hello.sql /docker-entrypoint-initdb.d/
 
-RUN rm var/www/html/index.html
-
-ADD php /var/www/html/
